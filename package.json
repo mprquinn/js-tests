@@ -1,0 +1,9 @@
+{
+  "name": "MikeGulp",
+  "version": "0.0.1",
+  "description": "Simple installation of all gulp-related packages",
+  "author": "Mike <mike@simplesimple.ca>",
+  "devDependencies": {
+    "chai": "^4.0.2"
+  }
+}
