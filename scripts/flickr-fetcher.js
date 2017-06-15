@@ -8,7 +8,7 @@ const FlickrFetcher = {
     transformPhotoObj: function (obj) {
       return {
         title: obj.title,
-        url:   `https://farm${obj.farm}.staticflickr.com/${obj.server}/${obj.id}_${obj.secret}_b.jpg`
+        url:   FlickrFetcher.photoObjToURL(obj)
       };
     },
 };
